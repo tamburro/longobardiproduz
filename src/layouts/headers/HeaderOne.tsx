@@ -17,18 +17,7 @@ export default function HeaderOne() {
           <div className="container">
             <div className="header-inner">
               <div className="row align-items-center">
-                <div className="col-xl-2 col-lg-2 col-md-6 col-6 col-sm-3">
-                  <div className="logo-area">
-                    <div className="logo">
-                      <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <span style={{ fontFamily: 'Oswald, sans-serif', fontWeight: 600, fontSize: '1.4rem', letterSpacing: '0.02em' }}>
-                          LONGOBARDI<span style={{ color: '#0abfc7' }}> PRODUZ</span>
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-10 col-lg-10 col-md-6 col-6 col-sm-9">
+                <div className="col-xl-12 col-lg-12 col-md-6 col-6 col-sm-9">
                   <div className="main-menu d-none d-lg-block">
                     <nav id="mobile-menu">
                       <NavMenu /> 
