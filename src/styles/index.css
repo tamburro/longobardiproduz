@@ -30,7 +30,8 @@
     --main-color:       #C8F23C;
     --black-color:      #0e0e0e;
     --heading-color:    #f0ebe3;
-    --primary-color:    #f0ebe3;
+    --primary-color:    #141414;
+    --lighter-color:    #1a1a1a;
     --body-color:       rgba(240, 235, 227, 0.65);
     --border-color:     rgba(240, 235, 227, 0.08);
     --button-border:    rgba(240, 235, 227, 0.2);
@@ -71,6 +72,22 @@ h1, h2, h3, h4, h5, h6 { color: #f0ebe3; }
 /* Títulos de seção */
 .section-title h2,
 .section-black-title h2 { color: #f0ebe3 !important; }
+
+/* Testimonial cards */
+.testimonial-item {
+    background: #1a1a1a !important;
+    border-color: rgba(240, 235, 227, 0.08) !important;
+}
+.testimonial-item .text { color: rgba(240, 235, 227, 0.7) !important; }
+.testimonial-item h5 { color: #f0ebe3 !important; }
+
+/* Service items */
+.service-item { background: transparent !important; }
+.service-item h4 { color: #f0ebe3 !important; }
+
+/* Hero content */
+.hero-content p,
+.hero-content span { color: rgba(240, 235, 227, 0.75) !important; }
 
 /* ── Seção de contato ── */
 .contact-area {
