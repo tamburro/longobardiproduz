@@ -72,6 +72,44 @@ h1, h2, h3, h4, h5, h6 { color: #f0ebe3; }
 .section-title h2,
 .section-black-title h2 { color: #f0ebe3 !important; }
 
+/* ── Seção de contato ── */
+.contact-area {
+    background: #0e0e0e !important;
+}
+.contact-content-part,
+.contact-form-area {
+    background: #161616 !important;
+    border-color: rgba(240, 235, 227, 0.1) !important;
+}
+
+/* Inputs e textareas */
+.contact-form-area .form-group .form-control {
+    background: #1e1e1e !important;
+    border-color: rgba(240, 235, 227, 0.15) !important;
+    color: #f0ebe3 !important;
+}
+.contact-form-area .form-group .form-control:focus {
+    border-color: #C8F23C !important;
+}
+input::placeholder,
+textarea::placeholder,
+.form-control::placeholder { color: rgba(240, 235, 227, 0.3) !important; opacity: 1 !important; }
+
+/* Labels do formulário */
+.contact-form-area .form-group label { color: #C8F23C !important; }
+
+/* Ícone dentro do input */
+.contact-form-area .form-group .for-icon { color: rgba(240, 235, 227, 0.3) !important; }
+
+/* Dados de contato (p já sobrescrito, mas single-contact p é hardcoded) */
+.single-contact p,
+.single-contact a { color: rgba(240, 235, 227, 0.7) !important; }
+.single-contact h2 { color: #C8F23C !important; }
+
+/* Ícones de circle-btn */
+.circle-btn { background: #C8F23C !important; }
+.circle-btn i { color: #0e0e0e !important; }
+
 /* Botão principal */
 .theme-btn {
     background: #C8F23C !important;
