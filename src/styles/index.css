@@ -82,7 +82,7 @@ h2.about-pre-title { color: #C8F23C !important; }
     border-color: rgba(240, 235, 227, 0.08) !important;
 }
 .testimonial-item .text { color: rgba(240, 235, 227, 0.7) !important; }
-.testimonial-item h5 { color: #f0ebe3 !important; }
+.testimonial-item .testi-des h5 { color: #C8F23C !important; }
 
 /* Service items */
 .service-item { background: transparent !important; }

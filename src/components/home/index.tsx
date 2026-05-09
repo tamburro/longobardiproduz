@@ -29,7 +29,7 @@ export default function Home() {
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-lg-3">
-                    <h2 style={{ fontFamily: 'Oswald, sans-serif', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.15em', opacity: 0.5 }}>
+                    <h2 style={{ fontFamily: 'Oswald, sans-serif', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: '#C8F23C' }}>
                       Educação &amp; Artes Cênicas
                     </h2>
                   </div>
