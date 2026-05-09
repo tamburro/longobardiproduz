@@ -51,14 +51,6 @@ export default function ServiceArea() {
               </div>
             </div>
 
-            <div className="col-lg-12" style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
-              <p style={{ opacity: 0.5, fontSize: '0.9rem' }}>
-                Também atua como{' '}
-                <a href="#arts" style={{ color: '#0abfc7', textDecoration: 'underline' }}>
-                  Artista-Docente & Educadora →
-                </a>
-              </p>
-            </div>
 
           </div>
         </div>
