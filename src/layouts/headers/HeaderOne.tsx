@@ -17,7 +17,7 @@ export default function HeaderOne() {
           <div className="container">
             <div className="header-inner">
               <div className="row align-items-center">
-                <div className="col-xl-12 col-lg-12 col-md-6 col-6 col-sm-9">
+                <div className="col-12">
                   <div className="main-menu d-none d-lg-block">
                     <nav id="mobile-menu">
                       <NavMenu /> 
