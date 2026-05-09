@@ -17,10 +17,20 @@ export default function HeaderOne() {
           <div className="container">
             <div className="header-inner">
               <div className="row align-items-center">
-                <div className="col-12">
+                <div className="col-lg-3 col-6">
+                  <div className="logo">
+                    <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                      <span style={{ fontFamily: 'Oswald, sans-serif', fontWeight: 600, fontSize: '1.25rem', letterSpacing: '0.04em', lineHeight: 1 }}>
+                        LONGOBARDI<br />
+                        <span style={{ color: '#0abfc7' }}>PRODUZ</span>
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+                <div className="col-lg-9 col-6">
                   <div className="main-menu d-none d-lg-block">
                     <nav id="mobile-menu">
-                      <NavMenu /> 
+                      <NavMenu />
                     </nav>
                   </div>
                   <div className="side-menu-icon d-lg-none text-end">
