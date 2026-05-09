@@ -22,7 +22,7 @@ export default function HeaderOne() {
                     <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
                       <span style={{ fontFamily: 'Oswald, sans-serif', fontWeight: 600, fontSize: '1.25rem', letterSpacing: '0.04em', lineHeight: 1 }}>
                         LONGOBARDI<br />
-                        <span style={{ color: '#0abfc7' }}>PRODUZ</span>
+                        <span style={{ color: '#C8F23C' }}>PRODUZ</span>
                       </span>
                     </Link>
                   </div>

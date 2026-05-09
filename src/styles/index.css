@@ -21,6 +21,50 @@
 @import "../../public/assets/css/style.css";
 @import "../../public/assets/css/responsive.css";
 
+/* ══════════════════════════════════════════
+   NOITE CULTURAL — design system
+   Fundo: #0e0e0e  Texto: #f0ebe3  Acento: #C8F23C
+   ══════════════════════════════════════════ */
+:root {
+    --body-background:  #0e0e0e;
+    --main-color:       #C8F23C;
+    --black-color:      #0e0e0e;
+    --heading-color:    #f0ebe3;
+    --primary-color:    #161616;
+    --body-color:       rgba(240, 235, 227, 0.6);
+    --border-color:     rgba(240, 235, 227, 0.08);
+    --button-border:    rgba(240, 235, 227, 0.2);
+    --tp-theme-1:       #C8F23C;
+}
+
+body {
+    background: #0e0e0e !important;
+    color: #f0ebe3 !important;
+}
+
+/* Texto geral e parágrafos */
+p { color: rgba(240, 235, 227, 0.7); }
+
+/* Botão principal */
+.theme-btn {
+    background: #C8F23C !important;
+    color: #0e0e0e !important;
+    border-color: #C8F23C !important;
+}
+.theme-btn:hover {
+    background: transparent !important;
+    color: #C8F23C !important;
+    border-color: #C8F23C !important;
+}
+
+/* Links e destaques */
+a { color: inherit; }
+a:hover { color: #C8F23C; }
+
+/* Scroll-to-top e circle buttons */
+.circle-btn,
+.scroll-top { background: #C8F23C !important; color: #0e0e0e !important; }
+
 /* ── Header glassmorphism ── */
 .main-header .header-upper {
     background: rgba(10, 10, 10, 0.55) !important;

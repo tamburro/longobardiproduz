@@ -61,7 +61,7 @@ export default function PortfolioArea() {
                       padding: '6px 16px',
                       border: '1px solid rgba(255,255,255,0.2)',
                       borderRadius: 4,
-                      background: activeFilter === cat ? '#0abfc7' : 'transparent',
+                      background: activeFilter === cat ? '#C8F23C' : 'transparent',
                       color: activeFilter === cat ? '#000' : 'inherit',
                       cursor: 'pointer',
                       fontSize: '0.85rem',
