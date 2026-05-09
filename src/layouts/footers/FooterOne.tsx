@@ -10,8 +10,8 @@ export default function FooterOne() {
             <div className="col-lg-12">
               <div className="footer-top">
                 <p>Tem um projeto em mente?</p>
-                <h2 style={{ wordBreak: 'break-word', hyphens: 'auto' }}>
-                  <a href="mailto:longobardiproduz@gmail.com" style={{ fontSize: 'clamp(2.5rem, 10vw, 6rem)', lineHeight: '1.1' }}>
+                <h2 style={{ wordBreak: 'keep-all', hyphens: 'none', whiteSpace: 'normal' }}>
+                  <a href="mailto:longobardiproduz@gmail.com" style={{ fontSize: 'clamp(1.8rem, 7vw, 6rem)', lineHeight: '1.15' }}>
                     vamos trabalhar juntos
                   </a>
                 </h2>
