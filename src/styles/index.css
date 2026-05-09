@@ -131,6 +131,24 @@ textarea::placeholder,
 .circle-btn { background: #C8F23C !important; }
 .circle-btn i { color: #0e0e0e !important; }
 
+/* Ícones sociais (borda invisível no escuro) */
+.about-social ul li a {
+    border-color: rgba(240, 235, 227, 0.25) !important;
+    color: #f0ebe3 !important;
+}
+.about-social ul li a:hover {
+    border-color: #C8F23C !important;
+    color: #C8F23C !important;
+}
+
+/* Número do service-item: preto no hover (fundo lime) */
+.service-item:hover .service-item h5,
+.service-item:hover h5 {
+    color: #0e0e0e !important;
+    background: #C8F23C !important;
+    border-color: #C8F23C !important;
+}
+
 /* Botão principal */
 .theme-btn {
     background: #C8F23C !important;
