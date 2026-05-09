@@ -66,12 +66,15 @@ h2.about-pre-title {
 
 /* Headings e números de contadores */
 h1, h2, h3, h4, h5, h6 { color: #f0ebe3; }
-.hero-counter-area .count-text { color: #f0ebe3 !important; }
+.hero-counter-area .count-text { color: #C8F23C !important; }
 .hero-counter-area .counter-title { color: rgba(240, 235, 227, 0.55) !important; }
 
 /* Títulos de seção */
 .section-title h2,
-.section-black-title h2 { color: #f0ebe3 !important; }
+.section-black-title h2 { color: #C8F23C !important; }
+
+/* Label "Sobre Mim" */
+h2.about-pre-title { color: #C8F23C !important; }
 
 /* Testimonial cards */
 .testimonial-item {
@@ -83,7 +86,8 @@ h1, h2, h3, h4, h5, h6 { color: #f0ebe3; }
 
 /* Service items */
 .service-item { background: transparent !important; }
-.service-item h4 { color: #f0ebe3 !important; }
+.service-item h4 { color: #C8F23C !important; }
+.service-item i { color: #C8F23C !important; }
 
 /* Hero content */
 .hero-content p,
